@@ -1,4 +1,4 @@
-# ⚡ Mini Distributed System
+# Mini Distributed System
 
 A lightweight, fault-tolerant **Distributed Task Execution Platform** capable of orchestrating jobs across multiple autonomous worker nodes. Designed to simulate the core architecture of systems like **Jenkins**, **Celery**, or **GitHub Actions**.
 
@@ -30,3 +30,4 @@ The system follows a **Master-Slave** architecture with three distinct component
 # Navigate to root
 pip install -r requirements.txt
 uvicorn server.main:app --reload
+
